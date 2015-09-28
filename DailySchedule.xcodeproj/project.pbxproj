@@ -13,6 +13,9 @@
 		1838A0391BB8E9BB00C4798D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1838A0381BB8E9BB00C4798D /* Images.xcassets */; };
 		1838A03C1BB8E9BB00C4798D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1838A03A1BB8E9BB00C4798D /* LaunchScreen.xib */; };
 		1838A0481BB8E9BC00C4798D /* DailyScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0471BB8E9BC00C4798D /* DailyScheduleTests.swift */; };
+		1838A0521BB8F50800C4798D /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */; };
+		1838A0541BB8F52500C4798D /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */; };
+		1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1838A0411BB8E9BC00C4798D /* DailyScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838A0461BB8E9BC00C4798D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1838A0471BB8E9BC00C4798D /* DailyScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScheduleTests.swift; sourceTree = "<group>"; };
+		1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				1838A0311BB8E9BB00C4798D /* AppDelegate.swift */,
 				1838A0331BB8E9BB00C4798D /* ViewController.swift */,
 				1838A0351BB8E9BB00C4798D /* Main.storyboard */,
+				1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */,
+				1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */,
+				1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */,
 				1838A0381BB8E9BB00C4798D /* Images.xcassets */,
 				1838A03A1BB8E9BB00C4798D /* LaunchScreen.xib */,
 				1838A02F1BB8E9BB00C4798D /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1838A0521BB8F50800C4798D /* ScheduleTableViewController.swift in Sources */,
 				1838A0341BB8E9BB00C4798D /* ViewController.swift in Sources */,
+				1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */,
+				1838A0541BB8F52500C4798D /* ScheduleTableViewCell.swift in Sources */,
 				1838A0321BB8E9BB00C4798D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				1838A04D1BB8E9BC00C4798D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1838A04E1BB8E9BC00C4798D /* Build configuration list for PBXNativeTarget "DailyScheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				1838A0501BB8E9BC00C4798D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
