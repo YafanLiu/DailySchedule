@@ -16,6 +16,7 @@
 		1838A0521BB8F50800C4798D /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */; };
 		1838A0541BB8F52500C4798D /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */; };
 		1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */; };
+		189E9D601BBA401D00EC5D34 /* FallDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
 		1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermSelectionViewController.swift; sourceTree = "<group>"; };
+		189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */,
 				1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */,
 				1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */,
+				189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */,
 				1838A0381BB8E9BB00C4798D /* Images.xcassets */,
 				1838A03A1BB8E9BB00C4798D /* LaunchScreen.xib */,
 				1838A02F1BB8E9BB00C4798D /* Supporting Files */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189E9D601BBA401D00EC5D34 /* FallDetailViewController.swift in Sources */,
 				1838A0521BB8F50800C4798D /* ScheduleTableViewController.swift in Sources */,
 				1838A0341BB8E9BB00C4798D /* ViewController.swift in Sources */,
 				1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */,

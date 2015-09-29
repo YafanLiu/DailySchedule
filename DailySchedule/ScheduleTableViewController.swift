@@ -9,6 +9,10 @@
 import UIKit
 
 class ScheduleTableViewController: UITableViewController {
+    
+    var temp = String()
+    var coursetitle = ["3TP4","3TQ4","3EJ4","3FK4"]
+    var courseExplain = ["Signals and Systems","Probability","Electronics","Electromagnetic"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,11 +46,27 @@ class ScheduleTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! ScheduleTableViewCell
+        let stringTitle = coursetitle[indexPath.row] as String
+        cell.courseTitle.text = stringTitle
 
         // Configure the cell...
 
         return cell as ScheduleTableViewCell
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "FallDetailSegue"{
+            let detailViewController = segue.destinationViewController as! FallDetailViewController
+            if let indexPath = tableView.indexPathForCell(sender as! UITableViewCell) {
+                detailViewController.selectedTitle = coursetitle[indexPath.row]
+                detailViewController.selectedExplain = courseExplain[indexPath.row]
+            }
+        }
+        
+    }
+
+    
     
 
     /*
