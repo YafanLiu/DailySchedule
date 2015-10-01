@@ -1,15 +1,15 @@
 //
-//  FallDetailViewController.swift
+//  WinterViewController.swift
 //  DailySchedule
 //
-//  Created by lye on 15/9/28.
+//  Created by lye on 15/10/1.
 //  Copyright (c) 2015年 lye. All rights reserved.
 //
 
 import UIKit
 
-class FallDetailViewController: UIViewController {
-
+class WinterViewController: UIViewController {
+    
     @IBOutlet weak var detailCourseTitle: UILabel!
     @IBOutlet weak var courseExplaination: UILabel!
     @IBOutlet weak var name: UILabel!
@@ -20,7 +20,6 @@ class FallDetailViewController: UIViewController {
     @IBOutlet weak var labTime: UILabel!
     @IBOutlet weak var labLoc: UILabel!
     @IBOutlet weak var proPic: UIImageView!
-    
     
     var selectedTitle:String?
     var selectedExplain:String?
@@ -33,6 +32,8 @@ class FallDetailViewController: UIViewController {
     var selectedlabLoc:String?
     var selectedpic:String?
     
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         detailCourseTitle.text = selectedTitle
@@ -46,6 +47,7 @@ class FallDetailViewController: UIViewController {
         labLoc.text = selectedlabLoc
         proPic.image = UIImage(named: selectedpic!)
 
+
         // Do any additional setup after loading the view.
     }
 
@@ -53,8 +55,6 @@ class FallDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
     
 
     /*

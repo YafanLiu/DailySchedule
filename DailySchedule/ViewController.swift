@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var reminder: UILabel!
     
+    let gradientLayer = CAGradientLayer()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,6 +24,8 @@ class ViewController: UIViewController {
         println(timestamp)
         time.text = timestamp
         timecheckings()
+        backgroundGradient()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,6 +79,33 @@ class ViewController: UIViewController {
             reminder.text = "Getting tired? Finish up everyting and take a shower."
         }
         
+    }
+    func backgroundGradient() {
+        let background = CAGradientLayer().gradientColor()
+        background.frame = self.view.bounds
+        self.view.layer.insertSublayer(background, atIndex: 0)
+    }
+    func backgroundColor(){
+        self.view.backgroundColor = UIColor(red: (46/255.0), green: (187/255.0), blue: (222/255.0), alpha: 1.0)
+        
+        // 2
+        gradientLayer.frame = self.view.bounds
+        
+        // 3
+        let color1 = UIColor(red: 178, green: 191, blue: 158, alpha: 1.0).CGColor as CGColorRef
+        let color2 = UIColor(red: 46, green: 187, blue: 222, alpha: 1.0).CGColor as CGColorRef
+        let color3 = UIColor.clearColor().CGColor as CGColorRef
+        let color4 = UIColor(white: 0.0, alpha: 0.0).CGColor as CGColorRef
+        gradientLayer.colors = [color1, color2, color3, color4]
+        
+        // 4
+        gradientLayer.locations = [0.0, 0.25, 0.75, 1.0]
+        
+        // 5
+        self.view.layer.addSublayer(gradientLayer)
+        
+        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
 

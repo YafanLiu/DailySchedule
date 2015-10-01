@@ -19,6 +19,7 @@
 		1809FF151BBB9F1500A5C0EE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809FF0A1BBB9F1500A5C0EE /* Date.swift */; };
 		1809FF161BBB9F1500A5C0EE /* NSDateAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809FF0B1BBB9F1500A5C0EE /* NSDateAdditions.swift */; };
 		1809FF181BBB9F5800A5C0EE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809FF171BBB9F5800A5C0EE /* CalendarViewController.swift */; };
+		18211DA91BBC77A600409B76 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18211DA81BBC77A600409B76 /* CAGradientLayer.swift */; };
 		1838A0321BB8E9BB00C4798D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0311BB8E9BB00C4798D /* AppDelegate.swift */; };
 		1838A0341BB8E9BB00C4798D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0331BB8E9BB00C4798D /* ViewController.swift */; };
 		1838A0371BB8E9BB00C4798D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1838A0351BB8E9BB00C4798D /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 		1838A0541BB8F52500C4798D /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */; };
 		1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */; };
 		189E9D601BBA401D00EC5D34 /* FallDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */; };
+		18AB4C561BBCD3690042490C /* Schedule2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB4C551BBCD3690042490C /* Schedule2TableViewController.swift */; };
+		18AB4C581BBCE82E0042490C /* WinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB4C571BBCE82E0042490C /* WinterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		1809FF0A1BBB9F1500A5C0EE /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Date.swift; path = ../../../Bruha/ios_bruha/Bruha/Date.swift; sourceTree = "<group>"; };
 		1809FF0B1BBB9F1500A5C0EE /* NSDateAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateAdditions.swift; path = ../../../Bruha/ios_bruha/Bruha/NSDateAdditions.swift; sourceTree = "<group>"; };
 		1809FF171BBB9F5800A5C0EE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		18211DA81BBC77A600409B76 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
 		1838A02C1BB8E9BB00C4798D /* DailySchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailySchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838A0301BB8E9BB00C4798D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1838A0311BB8E9BB00C4798D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
 		1838A0571BB8FB2C00C4798D /* TermSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermSelectionViewController.swift; sourceTree = "<group>"; };
 		189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallDetailViewController.swift; sourceTree = "<group>"; };
+		18AB4C551BBCD3690042490C /* Schedule2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule2TableViewController.swift; sourceTree = "<group>"; };
+		18AB4C571BBCE82E0042490C /* WinterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,9 @@
 				1838A0511BB8F50800C4798D /* ScheduleTableViewController.swift */,
 				1838A0531BB8F52500C4798D /* ScheduleTableViewCell.swift */,
 				189E9D5F1BBA401D00EC5D34 /* FallDetailViewController.swift */,
+				18AB4C571BBCE82E0042490C /* WinterViewController.swift */,
+				18AB4C551BBCD3690042490C /* Schedule2TableViewController.swift */,
+				18211DA81BBC77A600409B76 /* CAGradientLayer.swift */,
 				1838A0381BB8E9BB00C4798D /* Images.xcassets */,
 				1809FF001BBB9EAF00A5C0EE /* CalendarKit */,
 				1838A03A1BB8E9BB00C4798D /* LaunchScreen.xib */,
@@ -275,14 +284,17 @@
 				1838A0521BB8F50800C4798D /* ScheduleTableViewController.swift in Sources */,
 				1838A0341BB8E9BB00C4798D /* ViewController.swift in Sources */,
 				1809FF101BBB9F1500A5C0EE /* DayCollectionCell.swift in Sources */,
+				18211DA91BBC77A600409B76 /* CAGradientLayer.swift in Sources */,
 				1809FF141BBB9F1500A5C0EE /* CalendarLogic.swift in Sources */,
 				1809FF151BBB9F1500A5C0EE /* Date.swift in Sources */,
 				1838A0581BB8FB2C00C4798D /* TermSelectionViewController.swift in Sources */,
 				1838A0541BB8F52500C4798D /* ScheduleTableViewCell.swift in Sources */,
 				1809FF0E1BBB9F1500A5C0EE /* MonthCollectionCell.swift in Sources */,
 				1809FF161BBB9F1500A5C0EE /* NSDateAdditions.swift in Sources */,
+				18AB4C581BBCE82E0042490C /* WinterViewController.swift in Sources */,
 				1809FF181BBB9F5800A5C0EE /* CalendarViewController.swift in Sources */,
 				1838A0321BB8E9BB00C4798D /* AppDelegate.swift in Sources */,
+				18AB4C561BBCD3690042490C /* Schedule2TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

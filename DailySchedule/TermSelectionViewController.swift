@@ -12,22 +12,25 @@ class TermSelectionViewController: UIViewController {
 
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var secondView: UIView!
+    
     
     @IBAction func changeTerm(sender: AnyObject) {
         switch segmentControl.selectedSegmentIndex
         {
         case 0:
             firstView.hidden = false
-            //secondView.hidden = true
+            secondView.hidden = true
         case 1:
             firstView.hidden = true
-            //secondView.hidden = false
+            secondView.hidden = false
         default:
             break;
         }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        secondView.hidden = true
 
         // Do any additional setup after loading the view.
     }
