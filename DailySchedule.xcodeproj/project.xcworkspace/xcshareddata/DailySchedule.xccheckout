@@ -12,6 +12,8 @@
 	<dict>
 		<key>20C666D5E6D86315A5E9D90DAD27DB60C7A0F1D3</key>
 		<string>https://github.com/YafanLiu/DailySchedule.git</string>
+		<key>3A5FDC71958FC3D6381A71A6769874E61CB42D9E</key>
+		<string>https://github.com/devbruha/ios_bruha.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DailySchedule.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>20C666D5E6D86315A5E9D90DAD27DB60C7A0F1D3</key>
 		<string>../..</string>
+		<key>3A5FDC71958FC3D6381A71A6769874E61CB42D9E</key>
+		<string>../../../Bruha/ios_bruha</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/YafanLiu/DailySchedule.git</string>
@@ -35,6 +39,14 @@
 			<string>20C666D5E6D86315A5E9D90DAD27DB60C7A0F1D3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DailySchedule</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3A5FDC71958FC3D6381A71A6769874E61CB42D9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_bruha</string>
 		</dict>
 	</array>
 </dict>
