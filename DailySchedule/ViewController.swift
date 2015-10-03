@@ -70,7 +70,7 @@ class ViewController: UIViewController {
             reminder.text = "Afternoon! Be energetic on your coursework!"
         }
         else if (hour >= t7 && hour < t8){
-            reminder.text = "Call the day! Have a break and have a good dinner!"
+            reminder.text = "Call the day! Take a break and have a good dinner!"
         }
         else if (hour >= t8 && hour < t9){
             reminder.text = "Keep going on! Reviews and preparations!"
